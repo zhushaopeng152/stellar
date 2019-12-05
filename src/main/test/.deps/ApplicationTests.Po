@@ -1,0 +1,4 @@
+main/test/ApplicationTests.o: main/test/ApplicationTests.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

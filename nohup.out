@@ -1,0 +1,90 @@
+usage:
+  stellar-core COMMAND
+
+where COMMAND is one of following:
+  catchup                           execute catchup from history archives
+                                    without connecting to network
+  check-quorum                      check quorum intersection of last network
+                                    activity
+  convert-id                        displays ID in all known forms
+  dump-xdr                          dump an XDR file, for debugging
+  force-scp                         next time stellar-core is run, SCP will
+                                    start with the local ledger rather than
+                                    waiting to hear from the network
+  fuzz                              run a single fuzz input and exit
+  gen-fuzz                          generate a random fuzzer input file
+  gen-seed                          generate and print a random node seed
+  help                              display list of available commands
+  http-command                      send a command to local stellar-core
+  infer-quorum                      print a quorum set inferred from history
+  load-xdr                          load an XDR bucket file, for testing
+  new-db                            creates or restores the DB to the genesis
+                                    ledger
+  new-hist                          initialize history archives
+  offline-info                      return information for an offline
+                                    instance
+  print-xdr                         pretty-print one XDR envelope, then quit
+  publish                           execute publish of all items remaining in
+                                    publish queue without connecting to
+                                    network, may not publish last checkpoint
+                                    if last closed ledger is on checkpoint
+                                    boundary
+  rebuild-ledger-from-buckets       rebuild the current database ledger from
+                                    the bucket list
+  report-last-history-checkpoint    report information about last checkpoint
+                                    available in history archives
+  run                               run stellar-core node
+  sec-to-pub                        print the public key corresponding to a
+                                    secret key
+  sign-transaction                  add signature to transaction envelope,
+                                    then quit
+  simulate                          simulate applying ledgers
+  test                              execute test suite
+  upgrade-db                        upgade database schema to current version
+  version                           print version information
+  write-quorum                      print a quorum set graph from history
+usage:
+  stellar-core COMMAND
+
+where COMMAND is one of following:
+  catchup                           execute catchup from history archives
+                                    without connecting to network
+  check-quorum                      check quorum intersection of last network
+                                    activity
+  convert-id                        displays ID in all known forms
+  dump-xdr                          dump an XDR file, for debugging
+  force-scp                         next time stellar-core is run, SCP will
+                                    start with the local ledger rather than
+                                    waiting to hear from the network
+  fuzz                              run a single fuzz input and exit
+  gen-fuzz                          generate a random fuzzer input file
+  gen-seed                          generate and print a random node seed
+  help                              display list of available commands
+  http-command                      send a command to local stellar-core
+  infer-quorum                      print a quorum set inferred from history
+  load-xdr                          load an XDR bucket file, for testing
+  new-db                            creates or restores the DB to the genesis
+                                    ledger
+  new-hist                          initialize history archives
+  offline-info                      return information for an offline
+                                    instance
+  print-xdr                         pretty-print one XDR envelope, then quit
+  publish                           execute publish of all items remaining in
+                                    publish queue without connecting to
+                                    network, may not publish last checkpoint
+                                    if last closed ledger is on checkpoint
+                                    boundary
+  rebuild-ledger-from-buckets       rebuild the current database ledger from
+                                    the bucket list
+  report-last-history-checkpoint    report information about last checkpoint
+                                    available in history archives
+  run                               run stellar-core node
+  sec-to-pub                        print the public key corresponding to a
+                                    secret key
+  sign-transaction                  add signature to transaction envelope,
+                                    then quit
+  simulate                          simulate applying ledgers
+  test                              execute test suite
+  upgrade-db                        upgade database schema to current version
+  version                           print version information
+  write-quorum                      print a quorum set graph from history
